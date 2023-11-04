@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from mgca.models.backbones.bert import MyBertMaskedLM
+from .bert import MyBertMaskedLM
 from transformers.configuration_utils import PretrainedConfig
 
 class BertConfig(PretrainedConfig):
